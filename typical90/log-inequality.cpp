@@ -1,3 +1,9 @@
+
+/*
+実数で計算すると誤差で計算結果が狂うことがある
+対数を式変換して整数領域で計算するとより正確に計算できる場合がある
+ */
+
 #include <iostream>
 #include <string>
 #include <vector>
