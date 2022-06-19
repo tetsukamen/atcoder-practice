@@ -1,3 +1,5 @@
+/* bit全探索とスタックの考え方 */
+
 #include <iostream>
 #include <string>
 #include <vector>

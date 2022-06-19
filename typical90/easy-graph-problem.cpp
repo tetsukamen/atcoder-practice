@@ -1,15 +1,19 @@
+/* 頂点数が多いグラフデータを扱う際、隣接行列だとメモリが足りなくなるので隣接リストを使う */
+
 #include <iostream>
 #include <vector>
 using namespace std;
 
-int main() {
+int main()
+{
   int N, M;
   cin >> N >> M;
 
   vector<vector<int>> G(N);
 
   int a, b;
-  for (int i = 0; i < M; i++) {
+  for (int i = 0; i < M; i++)
+  {
     cin >> a >> b;
     --a, --b;
     G[a].push_back(b);
@@ -17,12 +21,16 @@ int main() {
   }
 
   int answer = 0;
-  for (int i = 0; i < N; i++) {
+  for (int i = 0; i < N; i++)
+  {
     int cnt = 0;
-    for (int j = 0; j < G[i].size(); j++) {
-      if (i > G[i][j]) ++cnt;
+    for (int j = 0; j < G[i].size(); j++)
+    {
+      if (i > G[i][j])
+        ++cnt;
     }
-    if (cnt == 1) ++answer;
+    if (cnt == 1)
+      ++answer;
   }
 
   cout << answer << endl;

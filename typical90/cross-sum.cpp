@@ -1,3 +1,5 @@
+/* 表の和を計算するときは先に列ごと、行ごとの合計値を計算しておくと計算量が減る */
+
 #include <iostream>
 #include <vector>
 using namespace std;

@@ -1,3 +1,5 @@
+/* 辞書型ならMap。logNで挿入・検索可能 */
+
 #include <iostream>
 #include <vector>
 #include <string>

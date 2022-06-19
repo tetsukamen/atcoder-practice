@@ -1,3 +1,5 @@
+/* 境界条件に注意する */
+
 #include <iostream>
 using namespace std;
 

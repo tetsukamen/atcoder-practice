@@ -1,3 +1,5 @@
+/* 計算方法の工夫でオーダーが小さくなる */
+
 #include <iostream>
 #include <string>
 #include <vector>

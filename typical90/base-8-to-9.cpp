@@ -1,3 +1,5 @@
+/* X進数の変換 */
+
 #include <iostream>
 #include <string>
 #include <vector>

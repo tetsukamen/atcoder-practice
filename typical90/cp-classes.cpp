@@ -1,3 +1,5 @@
+/* 二分探索 */
+
 #include <iostream>
 #include <string>
 #include <vector>

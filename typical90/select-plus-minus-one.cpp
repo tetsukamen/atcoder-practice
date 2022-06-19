@@ -1,3 +1,5 @@
+/* パリティ（奇数・偶数の条件）を利用する */
+
 #include <iostream>
 #include <vector>
 #include <cmath>

@@ -1,3 +1,5 @@
+/* ソートして貪欲法 */
+
 #include <iostream>
 #include <string>
 #include <vector>

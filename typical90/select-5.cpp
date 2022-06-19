@@ -1,3 +1,5 @@
+/* 定数倍が小さければオーダーが大きくても十分高速に動くことがある */
+
 #include <iostream>
 #include <vector>
 using namespace std;

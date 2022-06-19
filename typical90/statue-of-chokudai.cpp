@@ -1,3 +1,5 @@
+/* 三角関数を使う */
+
 #include <iostream>
 #include <string>
 #include <vector>

@@ -1,3 +1,5 @@
+/* リスト形式の前後に要素を追加・削除したいならdeque */
+
 #include <iostream>
 #include <vector>
 using namespace std;

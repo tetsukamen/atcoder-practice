@@ -1,3 +1,5 @@
+/* ユークリッドの互除法を使って最大公約数を求める */
+
 #include <iostream>
 #include <vector>
 using namespace std;

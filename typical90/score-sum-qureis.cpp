@@ -1,3 +1,5 @@
+/* 事前に累積和を計算しておくことで計算量を削減 */
+
 #include <iostream>
 #include <vector>
 using namespace std;
